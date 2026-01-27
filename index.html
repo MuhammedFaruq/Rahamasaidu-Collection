@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rahama Collection</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+</head>
+<body>
+
+  <!-- HEADER -->
+ <header class="main-header">
+  <div class="logo">
+    Rahama <span>Saidu Collection</span>
+  </div>
+
+  <nav class="nav-icons">
+    <a href="#home">
+      <i class="fa-solid fa-house"></i>
+      <span>Home</span>
+    </a>
+    <a href="#about">
+      <i class="fa-solid fa-user"></i>
+      <span>About</span>
+    </a>
+    <a href="#shop">
+      <i class="fa-solid fa-bag-shopping"></i>
+      <span>Shop</span>
+    </a>
+    <a href="#contact">
+      <i class="fa-solid fa-phone"></i>
+      <span>Contact</span>
+    </a>
+  </nav>
+</header>
+
+
+
+  <!-- HERO SECTION -->
+ <section class="hero">
+  
+  <!-- Background Video -->
+  <video class="hero-video" autoplay muted loop playsinline>
+    <source src="video/rahama saidu.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Dark Overlay -->
+  <div class="overlay"></div>
+
+  <!-- Hero Content -->
+  <div class="hero-content">
+    <h1 class="reveal">Looking Good Always</h1>
+    <p class="reveal"> 
+      A Curated Collection of Egypt Abayas & Fashion Accessories
+    </p>
+    <a href="#shop" class="btn">Explore Collection</a>
+  </div>
+
+</section>
+
+
+<h2 align="center" style="font-size: 2rem; color: #b57b5c;;">About us</h2>
+<br>
+  <!-- ABOUT SECTION -->
+ <section id="about" class="about">
+
+  <!-- About Video -->
+  <video class="about-video reveal-left" autoplay muted loop playsinline >
+    <source src="video/hero video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <div class="about-text reveal-right">
+    <h2>About Rahama Saidu Collection</h2>
+    <p>
+      Rahama Saidu Collection is a fashion brand dedicated to timeless modest wear 
+      and elegant accessories. We curate high-quality abayas, caps, shoes, and bags 
+      designed to combine comfort, style, and sophistication.
+      <br><br>
+      Our collections are carefully selected to suit modern women who value elegance,
+      confidence, and quality — whether for everyday wear or special occasions.
+      We proudly serve both retail and wholesale customers, delivering fashion pieces
+      that elevate your style with grace.
+    </p>
+  </div>
+
+</section>
+
+
+
+  <!-- PRODUCTS SECTION (HOMEPAGE) -->
+<section id="shop" class="products">
+  <h2>Our Bestsellers</h2>
+  <div class="product-grid">
+    <div class="product reveal-zoom">
+      <img src="img/egypt abaya 3.jpeg" alt="Bone straight Hair">
+      <h3>20 inch Vietnamese Bone Straight</h3>
+      <p class="price">₦ 220,000</p>
+      <button class="btn" onclick="sendToWhatsApp(this)">Buy Now</button>
+    </div>
+
+    <div class="product reveal-zoom">
+        <img src="img/egypt abaya 2.jpeg" alt="">
+        <h3>Beautiful Wave Braids Attachment</h3>
+        <p class="price">₦ 130,000</p>
+        <button class="btn" onclick="sendToWhatsApp(this)">Buy Now</button>
+      </div>
+      
+    <div class="product reveal-zoom">
+  <img src="img/egypt abaya 4.jpeg" alt="">
+  <h3>10 inch Vietnamese Bone Straight</h3>
+  <p class="price">₦ 130,000</p>
+  <button class="btn" onclick="sendToWhatsApp(this)">Buy Now</button>
+</div>
+
+
+    <div class="product reveal-zoom">
+        <img src="img/egypt abaya 1.jpeg" alt="">
+        <h3> Beautiful Versatile Braids Attachment</h3>
+        <p class="price">₦ 130,000</p>
+        <button class="btn" onclick="sendToWhatsApp(this)">Buy Now</button>
+      </div>
+
+    <div class="product reveal-zoom">
+        <img src="img/female bag 1.jpeg" alt="">
+        <h3>Luxury Braids Only Bouncy Curly Braids</h3>
+        <p class="price">₦ 130,000</p>
+        <button class="btn" onclick="sendToWhatsApp(this)">Buy Now</button>
+      </div>
+
+      
+     <div class="product reveal-zoom">
+      <img src="img/bagco bag 3.jpeg" alt="">
+      <h3> Small Attachment</h3>
+      <p class="price">₦ 5,000</p>
+      <button class="btn" onclick="sendToWhatsApp(this)">Buy Now</button>
+     </div>
+
+     <div class="product reveal-zoom">
+      <img src="img/female wear 1.jpeg" alt="">
+      <h3>Boho braids with attachment and amigos curls</h3>
+      <p class="price">₦ 5,000</p>
+      <button class="btn" onclick="sendToWhatsApp(this)">Buy Now</button>
+     </div>
+
+     <div class="product reveal-zoom">
+      <img src="img/bagco bag 1.jpeg" alt="">
+      <h3>French Curly braids hair materials</h3>
+      <p class="price">₦ 5,000</p>
+      <button class="btn" onclick="sendToWhatsApp(this)">Buy Now</button>
+     </div>
+     
+  </div>
+
+  <!-- View More Button -->
+  <div style="margin-top: 40px;">
+    <a href="product.html" class="btn">View All Products</a>
+  </div>
+</section>
+
+
+<!-- CONTACT SECTION -->
+<section id="contact">
+  <h2 class="section-title">Get in Touch</h2>
+
+  <div class="contact-wrapper">
+    <!-- Left: Info & Map -->
+    <div class="contact-info reveal-left">
+      <section id="contact">
+  <p>
+    📍 Maiduguri Road, Kwanar Maggi, Opposite Chicken Flavor,  
+    Dangyatin Plaza, Hotoro, Kano
+  </p>
+</section>
+
+    <iframe
+  src="https://www.google.com/maps?q=Kwanar+Maggi+Hotoro+Kano+Nigeria&output=embed"
+  width="100%"
+  height="400"
+  style="border:0; border-radius:10px;"
+  allowfullscreen=""
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+
+<div class="map-container">
+  <iframe
+    src="https://www.google.com/maps?q=Kwanar+Maggi+Hotoro+Kano+Nigeria&output=embed"
+    loading="lazy">
+  </iframe>
+</div>
+
+
+    </div>
+  <!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-content">
+
+    <div class="footer-brand">
+      <h3>Rahama Saidu Collection</h3>
+      <p>Premium Abayas, Caps, Shoes & Fashion Accessories</p>
+    </div>
+
+    <div class="footer-socials">
+      <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+      <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 Rahama Saidu Collection. All Rights Reserved.
+  </div>
+</footer>
+
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/2349033847211" 
+   class="whatsapp-float" 
+   target="_blank" 
+   title="Chat on WhatsApp">
+   <i class="fab fa-whatsapp"></i>
+</a>
+
+<script src="script.js"></script>
+
+</body>
+</html>
