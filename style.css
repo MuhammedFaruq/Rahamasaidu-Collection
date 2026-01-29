@@ -373,11 +373,12 @@ a {
 }
 
 .product h3 {
-  color: #222;
-  margin: 15px 0 8px;
-  font-size: 1rem;
-  font-weight: 500;
-  line-height: 1.3;
+  min-height: 42px;      
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000;
 }
 
 .product p.price {
@@ -425,7 +426,7 @@ a {
   }
 
   .product h3 {
-    font-size: 0.85rem;
+    min-height: 36px;
   }
 
   .product p.price {
@@ -748,4 +749,59 @@ a {
 .reveal-zoom.active {
   opacity: 1;
   transform: scale(1);
+}
+
+
+/* ===== CATEGORY FILTER (SAFE) ===== */
+.category-filter {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.category-filter .filter-btn {
+  background: transparent;
+  border: 1.5px solid #b57b5c;
+  color: #b57b5c;
+  padding: 7px 18px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.category-filter .filter-btn:hover {
+  background: #b57b5c;
+  color: #fff;
+}
+
+.category-filter .filter-btn.active {
+  background: #b57b5c;
+  color: #fff;
+}
+
+
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.pagination button {
+  padding: 8px 14px;
+  border: 1px solid #b57b5c;
+  background: transparent;
+  color: #b57b5c;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.pagination button:hover {
+  background: #b57b5c;
+  color: #fff;
 }
