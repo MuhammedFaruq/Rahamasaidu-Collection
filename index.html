@@ -44,10 +44,17 @@
  <section class="hero">
   
   <!-- Background Video -->
-  <video class="hero-video" autoplay muted loop playsinline>
-    <source src="video/rahama saidu.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+  <video
+  class="hero-video"
+  autoplay
+  muted
+  loop
+  playsinline
+  preload="auto"
+  poster="img/hero-fallback.jpg">
+  <source src="video/rahama saidu.mp4" type="video/mp4">
+</video>
+
 
   <!-- Dark Overlay -->
   <div class="overlay"></div>
@@ -70,10 +77,11 @@
  <section id="about" class="about">
 
   <!-- About Video -->
-  <video class="about-video reveal-left" autoplay muted loop playsinline >
-    <source src="video/hero video.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+ <video class="about-video reveal-left" controls preload="metadata">
+  <source src="video/hero video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
   <div class="about-text reveal-right">
     <h2>About Rahama Saidu Collection</h2>
